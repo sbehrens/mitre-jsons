@@ -1,0 +1,207 @@
+{
+    "name": "Bastions",
+    "versions": {
+        "attack": "12",
+        "navigator": "4.7.1",
+        "layer": "4.4"
+    },
+    "domain": "enterprise-attack",
+    "description": "",
+    "filters": {
+        "platforms": [
+            "Linux",
+            "macOS",
+            "Windows",
+            "Network",
+            "PRE",
+            "Containers",
+            "Office 365",
+            "SaaS",
+            "Google Workspace",
+            "IaaS",
+            "Azure AD"
+        ]
+    },
+    "sorting": 0,
+    "layout": {
+        "layout": "side",
+        "aggregateFunction": "average",
+        "showID": false,
+        "showName": true,
+        "showAggregateScores": false,
+        "countUnscored": false
+    },
+    "hideDisabled": false,
+    "gradient": {
+        "colors": [
+            "#ff6666ff",
+            "#ffe766ff",
+            "#8ec843ff"
+        ],
+        "minValue": 0,
+        "maxValue": 100
+    },
+    "legendItems": [],
+    "metadata": [],
+    "links": [],
+    "showTacticRowBackground": false,
+    "tacticRowBackground": "#dddddd",
+    "selectTechniquesAcrossTactics": true,
+    "selectSubtechniquesWithParent": false,
+    "techniques": [
+        {
+            "techniqueID": "T1021.004",
+            "tactic": "reconnaissance",
+            "score": 100,
+            "color": "",
+            "comment": "",
+            "enabled": true,
+            "metadata": [],
+            "links": [],
+            "showSubtechniques": false
+        },
+        {
+            "techniqueID": "T1021.004",
+            "tactic": "resource-development",
+            "score": 100,
+            "color": "",
+            "comment": "",
+            "enabled": true,
+            "metadata": [],
+            "links": [],
+            "showSubtechniques": false
+        },
+        {
+            "techniqueID": "T1021.004",
+            "tactic": "initial-access",
+            "score": 100,
+            "color": "",
+            "comment": "",
+            "enabled": true,
+            "metadata": [],
+            "links": [],
+            "showSubtechniques": false
+        },
+        {
+            "techniqueID": "T1021.004",
+            "tactic": "execution",
+            "score": 100,
+            "color": "",
+            "comment": "",
+            "enabled": true,
+            "metadata": [],
+            "links": [],
+            "showSubtechniques": false
+        },
+        {
+            "techniqueID": "T1021.004",
+            "tactic": "persistence",
+            "score": 100,
+            "color": "",
+            "comment": "",
+            "enabled": true,
+            "metadata": [],
+            "links": [],
+            "showSubtechniques": false
+        },
+        {
+            "techniqueID": "T1021.004",
+            "tactic": "privilege-escalation",
+            "score": 100,
+            "color": "",
+            "comment": "",
+            "enabled": true,
+            "metadata": [],
+            "links": [],
+            "showSubtechniques": false
+        },
+        {
+            "techniqueID": "T1021.004",
+            "tactic": "defense-evasion",
+            "score": 100,
+            "color": "",
+            "comment": "",
+            "enabled": true,
+            "metadata": [],
+            "links": [],
+            "showSubtechniques": false
+        },
+        {
+            "techniqueID": "T1021.004",
+            "tactic": "credential-access",
+            "score": 100,
+            "color": "",
+            "comment": "",
+            "enabled": true,
+            "metadata": [],
+            "links": [],
+            "showSubtechniques": false
+        },
+        {
+            "techniqueID": "T1021.004",
+            "tactic": "discovery",
+            "score": 100,
+            "color": "",
+            "comment": "",
+            "enabled": true,
+            "metadata": [],
+            "links": [],
+            "showSubtechniques": false
+        },
+        {
+            "techniqueID": "T1021.004",
+            "tactic": "lateral-movement",
+            "score": 100,
+            "color": "",
+            "comment": "",
+            "enabled": true,
+            "metadata": [],
+            "links": [],
+            "showSubtechniques": false
+        },
+        {
+            "techniqueID": "T1021.004",
+            "tactic": "collection",
+            "score": 100,
+            "color": "",
+            "comment": "",
+            "enabled": true,
+            "metadata": [],
+            "links": [],
+            "showSubtechniques": false
+        },
+        {
+            "techniqueID": "T1021.004",
+            "tactic": "command-and-control",
+            "score": 100,
+            "color": "",
+            "comment": "",
+            "enabled": true,
+            "metadata": [],
+            "links": [],
+            "showSubtechniques": false
+        },
+        {
+            "techniqueID": "T1021.004",
+            "tactic": "exfiltration",
+            "score": 100,
+            "color": "",
+            "comment": "",
+            "enabled": true,
+            "metadata": [],
+            "links": [],
+            "showSubtechniques": false
+        },
+        {
+            "techniqueID": "T1021.004",
+            "tactic": "impact",
+            "score": 100,
+            "color": "",
+            "comment": "",
+            "enabled": true,
+            "metadata": [],
+            "links": [],
+            "showSubtechniques": false
+        }
+    ]
+}
