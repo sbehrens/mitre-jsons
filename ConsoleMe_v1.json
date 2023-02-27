@@ -50,17 +50,6 @@
     "selectSubtechniquesWithParent": false,
     "techniques": [
         {
-            "techniqueID": "T1098.001",
-            "tactic": "reconnaissance",
-            "score": 100,
-            "color": "",
-            "comment": "",
-            "enabled": true,
-            "metadata": [],
-            "links": [],
-            "showSubtechniques": false
-        },
-        {
             "techniqueID": "T1098.003",
             "tactic": "reconnaissance",
             "score": 100,
@@ -95,7 +84,7 @@
         },
         {
             "techniqueID": "T1098.001",
-            "tactic": "resource-development",
+            "tactic": "reconnaissance",
             "score": 100,
             "color": "",
             "comment": "",
@@ -139,7 +128,7 @@
         },
         {
             "techniqueID": "T1098.001",
-            "tactic": "initial-access",
+            "tactic": "resource-development",
             "score": 100,
             "color": "",
             "comment": "",
@@ -183,7 +172,7 @@
         },
         {
             "techniqueID": "T1098.001",
-            "tactic": "execution",
+            "tactic": "initial-access",
             "score": 100,
             "color": "",
             "comment": "",
@@ -227,7 +216,7 @@
         },
         {
             "techniqueID": "T1098.001",
-            "tactic": "persistence",
+            "tactic": "execution",
             "score": 100,
             "color": "",
             "comment": "",
@@ -271,7 +260,7 @@
         },
         {
             "techniqueID": "T1098.001",
-            "tactic": "privilege-escalation",
+            "tactic": "persistence",
             "score": 100,
             "color": "",
             "comment": "",
@@ -315,7 +304,7 @@
         },
         {
             "techniqueID": "T1098.001",
-            "tactic": "defense-evasion",
+            "tactic": "privilege-escalation",
             "score": 100,
             "color": "",
             "comment": "",
@@ -359,7 +348,7 @@
         },
         {
             "techniqueID": "T1098.001",
-            "tactic": "credential-access",
+            "tactic": "defense-evasion",
             "score": 100,
             "color": "",
             "comment": "",
@@ -403,7 +392,7 @@
         },
         {
             "techniqueID": "T1098.001",
-            "tactic": "discovery",
+            "tactic": "credential-access",
             "score": 100,
             "color": "",
             "comment": "",
@@ -447,7 +436,7 @@
         },
         {
             "techniqueID": "T1098.001",
-            "tactic": "lateral-movement",
+            "tactic": "discovery",
             "score": 100,
             "color": "",
             "comment": "",
@@ -491,7 +480,7 @@
         },
         {
             "techniqueID": "T1098.001",
-            "tactic": "collection",
+            "tactic": "lateral-movement",
             "score": 100,
             "color": "",
             "comment": "",
@@ -535,7 +524,7 @@
         },
         {
             "techniqueID": "T1098.001",
-            "tactic": "command-and-control",
+            "tactic": "collection",
             "score": 100,
             "color": "",
             "comment": "",
@@ -579,7 +568,7 @@
         },
         {
             "techniqueID": "T1098.001",
-            "tactic": "exfiltration",
+            "tactic": "command-and-control",
             "score": 100,
             "color": "",
             "comment": "",
@@ -623,7 +612,7 @@
         },
         {
             "techniqueID": "T1098.001",
-            "tactic": "impact",
+            "tactic": "exfiltration",
             "score": 100,
             "color": "",
             "comment": "",
@@ -658,6 +647,17 @@
             "techniqueID": "T1098",
             "tactic": "impact",
             "score": 40,
+            "color": "",
+            "comment": "",
+            "enabled": true,
+            "metadata": [],
+            "links": [],
+            "showSubtechniques": false
+        },
+        {
+            "techniqueID": "T1098.001",
+            "tactic": "impact",
+            "score": 100,
             "color": "",
             "comment": "",
             "enabled": true,

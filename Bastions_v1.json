@@ -61,9 +61,31 @@
             "showSubtechniques": false
         },
         {
+            "techniqueID": "T1021",
+            "tactic": "reconnaissance",
+            "score": 16,
+            "color": "",
+            "comment": "",
+            "enabled": true,
+            "metadata": [],
+            "links": [],
+            "showSubtechniques": false
+        },
+        {
             "techniqueID": "T1021.004",
             "tactic": "resource-development",
             "score": 100,
+            "color": "",
+            "comment": "",
+            "enabled": true,
+            "metadata": [],
+            "links": [],
+            "showSubtechniques": false
+        },
+        {
+            "techniqueID": "T1021",
+            "tactic": "resource-development",
+            "score": 16,
             "color": "",
             "comment": "",
             "enabled": true,
@@ -83,9 +105,31 @@
             "showSubtechniques": false
         },
         {
+            "techniqueID": "T1021",
+            "tactic": "initial-access",
+            "score": 16,
+            "color": "",
+            "comment": "",
+            "enabled": true,
+            "metadata": [],
+            "links": [],
+            "showSubtechniques": false
+        },
+        {
             "techniqueID": "T1021.004",
             "tactic": "execution",
             "score": 100,
+            "color": "",
+            "comment": "",
+            "enabled": true,
+            "metadata": [],
+            "links": [],
+            "showSubtechniques": false
+        },
+        {
+            "techniqueID": "T1021",
+            "tactic": "execution",
+            "score": 16,
             "color": "",
             "comment": "",
             "enabled": true,
@@ -105,9 +149,31 @@
             "showSubtechniques": false
         },
         {
+            "techniqueID": "T1021",
+            "tactic": "persistence",
+            "score": 16,
+            "color": "",
+            "comment": "",
+            "enabled": true,
+            "metadata": [],
+            "links": [],
+            "showSubtechniques": false
+        },
+        {
             "techniqueID": "T1021.004",
             "tactic": "privilege-escalation",
             "score": 100,
+            "color": "",
+            "comment": "",
+            "enabled": true,
+            "metadata": [],
+            "links": [],
+            "showSubtechniques": false
+        },
+        {
+            "techniqueID": "T1021",
+            "tactic": "privilege-escalation",
+            "score": 16,
             "color": "",
             "comment": "",
             "enabled": true,
@@ -127,9 +193,31 @@
             "showSubtechniques": false
         },
         {
+            "techniqueID": "T1021",
+            "tactic": "defense-evasion",
+            "score": 16,
+            "color": "",
+            "comment": "",
+            "enabled": true,
+            "metadata": [],
+            "links": [],
+            "showSubtechniques": false
+        },
+        {
             "techniqueID": "T1021.004",
             "tactic": "credential-access",
             "score": 100,
+            "color": "",
+            "comment": "",
+            "enabled": true,
+            "metadata": [],
+            "links": [],
+            "showSubtechniques": false
+        },
+        {
+            "techniqueID": "T1021",
+            "tactic": "credential-access",
+            "score": 16,
             "color": "",
             "comment": "",
             "enabled": true,
@@ -149,9 +237,31 @@
             "showSubtechniques": false
         },
         {
+            "techniqueID": "T1021",
+            "tactic": "discovery",
+            "score": 16,
+            "color": "",
+            "comment": "",
+            "enabled": true,
+            "metadata": [],
+            "links": [],
+            "showSubtechniques": false
+        },
+        {
             "techniqueID": "T1021.004",
             "tactic": "lateral-movement",
             "score": 100,
+            "color": "",
+            "comment": "",
+            "enabled": true,
+            "metadata": [],
+            "links": [],
+            "showSubtechniques": false
+        },
+        {
+            "techniqueID": "T1021",
+            "tactic": "lateral-movement",
+            "score": 16,
             "color": "",
             "comment": "",
             "enabled": true,
@@ -171,9 +281,31 @@
             "showSubtechniques": false
         },
         {
+            "techniqueID": "T1021",
+            "tactic": "collection",
+            "score": 16,
+            "color": "",
+            "comment": "",
+            "enabled": true,
+            "metadata": [],
+            "links": [],
+            "showSubtechniques": false
+        },
+        {
             "techniqueID": "T1021.004",
             "tactic": "command-and-control",
             "score": 100,
+            "color": "",
+            "comment": "",
+            "enabled": true,
+            "metadata": [],
+            "links": [],
+            "showSubtechniques": false
+        },
+        {
+            "techniqueID": "T1021",
+            "tactic": "command-and-control",
+            "score": 16,
             "color": "",
             "comment": "",
             "enabled": true,
@@ -193,9 +325,31 @@
             "showSubtechniques": false
         },
         {
+            "techniqueID": "T1021",
+            "tactic": "exfiltration",
+            "score": 16,
+            "color": "",
+            "comment": "",
+            "enabled": true,
+            "metadata": [],
+            "links": [],
+            "showSubtechniques": false
+        },
+        {
             "techniqueID": "T1021.004",
             "tactic": "impact",
             "score": 100,
+            "color": "",
+            "comment": "",
+            "enabled": true,
+            "metadata": [],
+            "links": [],
+            "showSubtechniques": false
+        },
+        {
+            "techniqueID": "T1021",
+            "tactic": "impact",
+            "score": 16,
             "color": "",
             "comment": "",
             "enabled": true,
