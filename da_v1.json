@@ -1,5 +1,5 @@
 {
-    "name": "DKIM-SPF",
+    "name": "DA Detection Coverage",
     "versions": {
         "attack": "12",
         "navigator": "4.7.1",

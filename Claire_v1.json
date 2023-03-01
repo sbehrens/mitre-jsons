@@ -50,6 +50,17 @@
     "selectSubtechniquesWithParent": false,
     "techniques": [
         {
+            "techniqueID": "T1078.002",
+            "tactic": "reconnaissance",
+            "score": 100,
+            "color": "",
+            "comment": "",
+            "enabled": true,
+            "metadata": [],
+            "links": [],
+            "showSubtechniques": false
+        },
+        {
             "techniqueID": "T1550",
             "tactic": "reconnaissance",
             "score": 25,
@@ -72,9 +83,9 @@
             "showSubtechniques": false
         },
         {
-            "techniqueID": "T1078.002",
+            "techniqueID": "T1078",
             "tactic": "reconnaissance",
-            "score": 100,
+            "score": 25,
             "color": "",
             "comment": "",
             "enabled": true,
@@ -83,9 +94,9 @@
             "showSubtechniques": false
         },
         {
-            "techniqueID": "T1078",
-            "tactic": "reconnaissance",
-            "score": 25,
+            "techniqueID": "T1078.002",
+            "tactic": "resource-development",
+            "score": 100,
             "color": "",
             "comment": "",
             "enabled": true,
@@ -116,17 +127,6 @@
             "showSubtechniques": false
         },
         {
-            "techniqueID": "T1078.002",
-            "tactic": "resource-development",
-            "score": 100,
-            "color": "",
-            "comment": "",
-            "enabled": true,
-            "metadata": [],
-            "links": [],
-            "showSubtechniques": false
-        },
-        {
             "techniqueID": "T1078",
             "tactic": "resource-development",
             "score": 25,
@@ -138,6 +138,17 @@
             "showSubtechniques": false
         },
         {
+            "techniqueID": "T1078.002",
+            "tactic": "initial-access",
+            "score": 100,
+            "color": "",
+            "comment": "",
+            "enabled": true,
+            "metadata": [],
+            "links": [],
+            "showSubtechniques": false
+        },
+        {
             "techniqueID": "T1550",
             "tactic": "initial-access",
             "score": 25,
@@ -160,9 +171,9 @@
             "showSubtechniques": false
         },
         {
-            "techniqueID": "T1078.002",
+            "techniqueID": "T1078",
             "tactic": "initial-access",
-            "score": 100,
+            "score": 25,
             "color": "",
             "comment": "",
             "enabled": true,
@@ -171,9 +182,9 @@
             "showSubtechniques": false
         },
         {
-            "techniqueID": "T1078",
-            "tactic": "initial-access",
-            "score": 25,
+            "techniqueID": "T1078.002",
+            "tactic": "execution",
+            "score": 100,
             "color": "",
             "comment": "",
             "enabled": true,
@@ -204,17 +215,6 @@
             "showSubtechniques": false
         },
         {
-            "techniqueID": "T1078.002",
-            "tactic": "execution",
-            "score": 100,
-            "color": "",
-            "comment": "",
-            "enabled": true,
-            "metadata": [],
-            "links": [],
-            "showSubtechniques": false
-        },
-        {
             "techniqueID": "T1078",
             "tactic": "execution",
             "score": 25,
@@ -226,6 +226,17 @@
             "showSubtechniques": false
         },
         {
+            "techniqueID": "T1078.002",
+            "tactic": "persistence",
+            "score": 100,
+            "color": "",
+            "comment": "",
+            "enabled": true,
+            "metadata": [],
+            "links": [],
+            "showSubtechniques": false
+        },
+        {
             "techniqueID": "T1550",
             "tactic": "persistence",
             "score": 25,
@@ -248,9 +259,9 @@
             "showSubtechniques": false
         },
         {
-            "techniqueID": "T1078.002",
+            "techniqueID": "T1078",
             "tactic": "persistence",
-            "score": 100,
+            "score": 25,
             "color": "",
             "comment": "",
             "enabled": true,
@@ -259,9 +270,9 @@
             "showSubtechniques": false
         },
         {
-            "techniqueID": "T1078",
-            "tactic": "persistence",
-            "score": 25,
+            "techniqueID": "T1078.002",
+            "tactic": "privilege-escalation",
+            "score": 100,
             "color": "",
             "comment": "",
             "enabled": true,
@@ -292,17 +303,6 @@
             "showSubtechniques": false
         },
         {
-            "techniqueID": "T1078.002",
-            "tactic": "privilege-escalation",
-            "score": 100,
-            "color": "",
-            "comment": "",
-            "enabled": true,
-            "metadata": [],
-            "links": [],
-            "showSubtechniques": false
-        },
-        {
             "techniqueID": "T1078",
             "tactic": "privilege-escalation",
             "score": 25,
@@ -314,6 +314,17 @@
             "showSubtechniques": false
         },
         {
+            "techniqueID": "T1078.002",
+            "tactic": "defense-evasion",
+            "score": 100,
+            "color": "",
+            "comment": "",
+            "enabled": true,
+            "metadata": [],
+            "links": [],
+            "showSubtechniques": false
+        },
+        {
             "techniqueID": "T1550",
             "tactic": "defense-evasion",
             "score": 25,
@@ -336,9 +347,9 @@
             "showSubtechniques": false
         },
         {
-            "techniqueID": "T1078.002",
+            "techniqueID": "T1078",
             "tactic": "defense-evasion",
-            "score": 100,
+            "score": 25,
             "color": "",
             "comment": "",
             "enabled": true,
@@ -347,9 +358,9 @@
             "showSubtechniques": false
         },
         {
-            "techniqueID": "T1078",
-            "tactic": "defense-evasion",
-            "score": 25,
+            "techniqueID": "T1078.002",
+            "tactic": "credential-access",
+            "score": 100,
             "color": "",
             "comment": "",
             "enabled": true,
@@ -380,17 +391,6 @@
             "showSubtechniques": false
         },
         {
-            "techniqueID": "T1078.002",
-            "tactic": "credential-access",
-            "score": 100,
-            "color": "",
-            "comment": "",
-            "enabled": true,
-            "metadata": [],
-            "links": [],
-            "showSubtechniques": false
-        },
-        {
             "techniqueID": "T1078",
             "tactic": "credential-access",
             "score": 25,
@@ -402,6 +402,17 @@
             "showSubtechniques": false
         },
         {
+            "techniqueID": "T1078.002",
+            "tactic": "discovery",
+            "score": 100,
+            "color": "",
+            "comment": "",
+            "enabled": true,
+            "metadata": [],
+            "links": [],
+            "showSubtechniques": false
+        },
+        {
             "techniqueID": "T1550",
             "tactic": "discovery",
             "score": 25,
@@ -424,9 +435,9 @@
             "showSubtechniques": false
         },
         {
-            "techniqueID": "T1078.002",
+            "techniqueID": "T1078",
             "tactic": "discovery",
-            "score": 100,
+            "score": 25,
             "color": "",
             "comment": "",
             "enabled": true,
@@ -435,9 +446,9 @@
             "showSubtechniques": false
         },
         {
-            "techniqueID": "T1078",
-            "tactic": "discovery",
-            "score": 25,
+            "techniqueID": "T1078.002",
+            "tactic": "lateral-movement",
+            "score": 100,
             "color": "",
             "comment": "",
             "enabled": true,
@@ -468,17 +479,6 @@
             "showSubtechniques": false
         },
         {
-            "techniqueID": "T1078.002",
-            "tactic": "lateral-movement",
-            "score": 100,
-            "color": "",
-            "comment": "",
-            "enabled": true,
-            "metadata": [],
-            "links": [],
-            "showSubtechniques": false
-        },
-        {
             "techniqueID": "T1078",
             "tactic": "lateral-movement",
             "score": 25,
@@ -490,6 +490,17 @@
             "showSubtechniques": false
         },
         {
+            "techniqueID": "T1078.002",
+            "tactic": "collection",
+            "score": 100,
+            "color": "",
+            "comment": "",
+            "enabled": true,
+            "metadata": [],
+            "links": [],
+            "showSubtechniques": false
+        },
+        {
             "techniqueID": "T1550",
             "tactic": "collection",
             "score": 25,
@@ -512,9 +523,9 @@
             "showSubtechniques": false
         },
         {
-            "techniqueID": "T1078.002",
+            "techniqueID": "T1078",
             "tactic": "collection",
-            "score": 100,
+            "score": 25,
             "color": "",
             "comment": "",
             "enabled": true,
@@ -523,9 +534,9 @@
             "showSubtechniques": false
         },
         {
-            "techniqueID": "T1078",
-            "tactic": "collection",
-            "score": 25,
+            "techniqueID": "T1078.002",
+            "tactic": "command-and-control",
+            "score": 100,
             "color": "",
             "comment": "",
             "enabled": true,
@@ -556,9 +567,9 @@
             "showSubtechniques": false
         },
         {
-            "techniqueID": "T1078.002",
+            "techniqueID": "T1078",
             "tactic": "command-and-control",
-            "score": 100,
+            "score": 25,
             "color": "",
             "comment": "",
             "enabled": true,
@@ -567,9 +578,9 @@
             "showSubtechniques": false
         },
         {
-            "techniqueID": "T1078",
-            "tactic": "command-and-control",
-            "score": 25,
+            "techniqueID": "T1078.002",
+            "tactic": "exfiltration",
+            "score": 100,
             "color": "",
             "comment": "",
             "enabled": true,
@@ -600,9 +611,9 @@
             "showSubtechniques": false
         },
         {
-            "techniqueID": "T1078.002",
+            "techniqueID": "T1078",
             "tactic": "exfiltration",
-            "score": 100,
+            "score": 25,
             "color": "",
             "comment": "",
             "enabled": true,
@@ -611,9 +622,9 @@
             "showSubtechniques": false
         },
         {
-            "techniqueID": "T1078",
-            "tactic": "exfiltration",
-            "score": 25,
+            "techniqueID": "T1078.002",
+            "tactic": "impact",
+            "score": 100,
             "color": "",
             "comment": "",
             "enabled": true,
@@ -634,17 +645,6 @@
         },
         {
             "techniqueID": "T1550.004",
-            "tactic": "impact",
-            "score": 100,
-            "color": "",
-            "comment": "",
-            "enabled": true,
-            "metadata": [],
-            "links": [],
-            "showSubtechniques": false
-        },
-        {
-            "techniqueID": "T1078.002",
             "tactic": "impact",
             "score": 100,
             "color": "",
