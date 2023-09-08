@@ -32,7 +32,129 @@
 		"countUnscored": false
 	},
 	"hideDisabled": false,
-	"techniques": [],
+	"techniques": [
+		{
+			"techniqueID": "T1566.001",
+			"tactic": "initial-access",
+			"score": 100,
+			"color": "",
+			"comment": "The attacker first gains access to a Microsoft engineer's corporate account via phishing.",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1566",
+			"tactic": "initial-access",
+			"score": 33,
+			"color": "",
+			"comment": "The attacker first gains access to a Microsoft engineer's corporate account via phishing.",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1021",
+			"tactic": "lateral-movement",
+			"score": 100,
+			"color": "",
+			"comment": "After gaining access to the corporate account, the attacker then accesses the developer's workstation.",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1005",
+			"tactic": "collection",
+			"score": 100,
+			"color": "",
+			"comment": "From the developer's workstation, the attacker accesses the heap dump containing the consumer signing key.",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1078",
+			"tactic": "persistence",
+			"score": 100,
+			"color": "",
+			"comment": "Attacker exploits a flaw in the GetAccessTokenForResource API.",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1552.001",
+			"tactic": "credential-access",
+			"score": 100,
+			"color": "",
+			"comment": "Using the consumer signing key, the attacker forged authentication tokens.",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1552",
+			"tactic": "credential-access",
+			"score": 50,
+			"color": "",
+			"comment": "Using the consumer signing key, the attacker forged authentication tokens.",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1114.001",
+			"tactic": "collection",
+			"score": 100,
+			"color": "",
+			"comment": "With valid tokens, the attacker retrieved mail messages from the OWA API.",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1114",
+			"tactic": "collection",
+			"score": 33,
+			"color": "",
+			"comment": "With valid tokens, the attacker retrieved mail messages from the OWA API.",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1048.003",
+			"tactic": "exfiltration",
+			"score": 100,
+			"color": "",
+			"comment": "The attacker exfiltrated the acquired data.",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1048",
+			"tactic": "exfiltration",
+			"score": 33,
+			"color": "",
+			"comment": "The attacker exfiltrated the acquired data.",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		}
+	],
 	"gradient": {
 		"colors": [
 			"#ff6666ff",
@@ -48,128 +170,5 @@
 	"showTacticRowBackground": false,
 	"tacticRowBackground": "#dddddd",
 	"selectTechniquesAcrossTactics": true,
-	"selectSubtechniquesWithParent": false,
-	"techniques": [
-		{
-			"techniqueID": "T1566.001",
-			"tactic": "initial-access",
-			"score": 100,
-			"color": "",
-			"comment": "The attacker first gains access to a Microsoft engineer's corporate account via phishing.",
-			"enabled": true,
-			"metadata": [],
-			"links": [],
-			"showSubtechniques": true
-		},
-		{
-			"techniqueID": "T1566",
-			"tactic": "initial-access",
-			"score": 33,
-			"color": "",
-			"comment": "The attacker first gains access to a Microsoft engineer's corporate account via phishing.",
-			"enabled": true,
-			"metadata": [],
-			"links": [],
-			"showSubtechniques": true
-		},
-		{
-			"techniqueID": "T1021",
-			"tactic": "lateral-movement",
-			"score": 100,
-			"color": "",
-			"comment": "After gaining access to the corporate account, the attacker then accesses the developer's workstation.",
-			"enabled": true,
-			"metadata": [],
-			"links": [],
-			"showSubtechniques": true
-		},
-		{
-			"techniqueID": "T1005",
-			"tactic": "collection",
-			"score": 100,
-			"color": "",
-			"comment": "From the developer's workstation, the attacker accesses the heap dump containing the consumer signing key.",
-			"enabled": true,
-			"metadata": [],
-			"links": [],
-			"showSubtechniques": true
-		},
-		{
-			"techniqueID": "T1078",
-			"tactic": "persistence",
-			"score": 100,
-			"color": "",
-			"comment": "Attacker exploits a flaw in the GetAccessTokenForResource API.",
-			"enabled": true,
-			"metadata": [],
-			"links": [],
-			"showSubtechniques": true
-		},
-		{
-			"techniqueID": "T1552.001",
-			"tactic": "credential-access",
-			"score": 100,
-			"color": "",
-			"comment": "Using the consumer signing key, the attacker forged authentication tokens.",
-			"enabled": true,
-			"metadata": [],
-			"links": [],
-			"showSubtechniques": true
-		},
-		{
-			"techniqueID": "T1552",
-			"tactic": "credential-access",
-			"score": 50,
-			"color": "",
-			"comment": "Using the consumer signing key, the attacker forged authentication tokens.",
-			"enabled": true,
-			"metadata": [],
-			"links": [],
-			"showSubtechniques": true
-		},
-		{
-			"techniqueID": "T1114.001",
-			"tactic": "collection",
-			"score": 100,
-			"color": "",
-			"comment": "With valid tokens, the attacker retrieved mail messages from the OWA API.",
-			"enabled": true,
-			"metadata": [],
-			"links": [],
-			"showSubtechniques": true
-		},
-		{
-			"techniqueID": "T1114",
-			"tactic": "collection",
-			"score": 33,
-			"color": "",
-			"comment": "With valid tokens, the attacker retrieved mail messages from the OWA API.",
-			"enabled": true,
-			"metadata": [],
-			"links": [],
-			"showSubtechniques": true
-		},
-		{
-			"techniqueID": "T1048.003",
-			"tactic": "exfiltration",
-			"score": 100,
-			"color": "",
-			"comment": "The attacker exfiltrated the acquired data.",
-			"enabled": true,
-			"metadata": [],
-			"links": [],
-			"showSubtechniques": true
-		},
-		{
-			"techniqueID": "T1048",
-			"tactic": "exfiltration",
-			"score": 33,
-			"color": "",
-			"comment": "The attacker exfiltrated the acquired data.",
-			"enabled": true,
-			"metadata": [],
-			"links": [],
-			"showSubtechniques": true
-		}
-	]
+	"selectSubtechniquesWithParent": false
 }
