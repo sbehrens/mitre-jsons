@@ -1,0 +1,175 @@
+{
+	"name": "storm-0588",
+	"versions": {
+		"attack": "13",
+		"navigator": "4.8.2",
+		"layer": "4.4"
+	},
+	"domain": "enterprise-attack",
+	"description": "",
+	"filters": {
+		"platforms": [
+			"Linux",
+			"macOS",
+			"Windows",
+			"Network",
+			"PRE",
+			"Containers",
+			"Office 365",
+			"SaaS",
+			"Google Workspace",
+			"IaaS",
+			"Azure AD"
+		]
+	},
+	"sorting": 0,
+	"layout": {
+		"layout": "side",
+		"aggregateFunction": "average",
+		"showID": false,
+		"showName": true,
+		"showAggregateScores": false,
+		"countUnscored": false
+	},
+	"hideDisabled": false,
+	"techniques": [],
+	"gradient": {
+		"colors": [
+			"#ff6666ff",
+			"#ffe766ff",
+			"#8ec843ff"
+		],
+		"minValue": 0,
+		"maxValue": 100
+	},
+	"legendItems": [],
+	"metadata": [],
+	"links": [],
+	"showTacticRowBackground": false,
+	"tacticRowBackground": "#dddddd",
+	"selectTechniquesAcrossTactics": true,
+	"selectSubtechniquesWithParent": false,
+	"techniques": [
+		{
+			"techniqueID": "T1566.001",
+			"tactic": "initial-access",
+			"score": 100,
+			"color": "",
+			"comment": "The attacker first gains access to a Microsoft engineer's corporate account via phishing.",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": true
+		},
+		{
+			"techniqueID": "T1566",
+			"tactic": "initial-access",
+			"score": 33,
+			"color": "",
+			"comment": "The attacker first gains access to a Microsoft engineer's corporate account via phishing.",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": true
+		},
+		{
+			"techniqueID": "T1021",
+			"tactic": "lateral-movement",
+			"score": 100,
+			"color": "",
+			"comment": "After gaining access to the corporate account, the attacker then accesses the developer's workstation.",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": true
+		},
+		{
+			"techniqueID": "T1005",
+			"tactic": "collection",
+			"score": 100,
+			"color": "",
+			"comment": "From the developer's workstation, the attacker accesses the heap dump containing the consumer signing key.",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": true
+		},
+		{
+			"techniqueID": "T1078",
+			"tactic": "persistence",
+			"score": 100,
+			"color": "",
+			"comment": "Attacker exploits a flaw in the GetAccessTokenForResource API.",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": true
+		},
+		{
+			"techniqueID": "T1552.001",
+			"tactic": "credential-access",
+			"score": 100,
+			"color": "",
+			"comment": "Using the consumer signing key, the attacker forged authentication tokens.",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": true
+		},
+		{
+			"techniqueID": "T1552",
+			"tactic": "credential-access",
+			"score": 50,
+			"color": "",
+			"comment": "Using the consumer signing key, the attacker forged authentication tokens.",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": true
+		},
+		{
+			"techniqueID": "T1114.001",
+			"tactic": "collection",
+			"score": 100,
+			"color": "",
+			"comment": "With valid tokens, the attacker retrieved mail messages from the OWA API.",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": true
+		},
+		{
+			"techniqueID": "T1114",
+			"tactic": "collection",
+			"score": 33,
+			"color": "",
+			"comment": "With valid tokens, the attacker retrieved mail messages from the OWA API.",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": true
+		},
+		{
+			"techniqueID": "T1048.003",
+			"tactic": "exfiltration",
+			"score": 100,
+			"color": "",
+			"comment": "The attacker exfiltrated the acquired data.",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": true
+		},
+		{
+			"techniqueID": "T1048",
+			"tactic": "exfiltration",
+			"score": 33,
+			"color": "",
+			"comment": "The attacker exfiltrated the acquired data.",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": true
+		}
+	]
+}
